@@ -39,6 +39,7 @@
 #import <SalesforceSDKCore/SFEncryptionKey.h>
 #import "SFAlterSoupLongOperation.h"
 #import <SalesforceSDKCore/SFUserAccountManager.h>
+#import <sqlite3.h>
 
 static NSMutableDictionary *_allSharedStores;
 static NSMutableDictionary *_allGlobalSharedStores;
